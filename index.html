@@ -13,20 +13,24 @@
 </head>
 <body>
     <main>
-        <nav id="nav">
-            <div class="logo">
-                <img src="img/Logo.jpg" alt="Logo">
-            </div>
-            <div class="navList">
-                <div class="listItem "><h2 class="active">Etusivu</h2></div>
-                <div class="listItem"><h2>Tuotteet</h2></div>
-                <div class="listItem"><h2>Tietoa meistä</h2></div>
-                <div class="listItem"><h2>Yhteystiebot</h2></div>
-            </div>
-        </nav>
-        <div class="title">
-            <img src="img/1.svg" alt="Main photo">
+        <div id="top"></div>
+        <div class="header">
+            <nav id="nav">
+                <div class="logo">
+                    <img src="img/Logo.jpg" alt="Logo">
+                </div>
+                <div class="navList">
+                    <div class="listItem "><a href="#top"><h2>Etusivu</h2></a></div>
+                    <div class="listItem"><a href="#tuotteet"><h2>Tuotteet</h2></a></div>
+                    <div class="listItem"><a href="#tiedot"><h2>Tiedot</h2></a></div>
+                    <div class="listItem"><a href="#bottom"><h2>Yhteystiebot</h2></a></div>
+                </div>
+            </nav>
         </div>
+        <div class="title">
+            <img src="img/11.svg" alt="Main Photo">
+        </div>
+        <div id="tuotteet"></div>
         <div class="mainItems">
             <div class="boxItem">
                 <div class="inBoxItem">
@@ -151,13 +155,14 @@
             </div>
         </div>
         <div class="linkPDF">
+            <div id="tiedot"></div>
             <div class="button">
                 <a href="FilePDF/CatalogeTOYS.pdf"><h3>Lataa koko katalogi (.pdf)</h3></a>
             </div>
         </div>
         <div class="info">
             <div class="infoInblock1">
-                <div class="infoText">
+                <div class="infoText textInfo">
                     <h3>
                         Sellainen on Wonderwall - rakentaja, peli, liiketoimintapeli, maalaus, sisustus?
                     </h3>
@@ -179,8 +184,8 @@
             <div class="infoInblock2">
                 <img src="img/Шар.svg" alt="img">
             </div>
-            <div class="infoInblock1">
-                <div class="infoText">
+            <div class="infoInblock3">
+                <div class="infoText2 textInfo">
                     <h3>
                         Hyödyt
                     </h3>
@@ -283,6 +288,7 @@
                     </div>
                 </div>
             </div>
+            <div id="bottom"></div>
             <div class="social-icon">
                 <img src="img/instagram.png" alt="instagram icon">
                 <img src="img/facebook.png" alt="Facebook icon">
