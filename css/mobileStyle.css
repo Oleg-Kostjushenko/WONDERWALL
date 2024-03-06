@@ -1,0 +1,23 @@
+@media screen and (max-device-width: 720px){
+    .PCScreen{
+        display: none;
+    }
+    .mobileScreen{
+        display: block;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    .infoInblock1 {
+        margin: 10px;
+    }
+    .mainItems{
+        margin-bottom: 20px;
+    }
+    .logo{
+        background-color: #fff;
+    }
+}
