@@ -13,10 +13,14 @@ var swiper = new Swiper(".mySwiper", {
 
 let menuBtn = document.querySelector('.menu-btn')
 let menu = document.querySelector('.menu')
+let item = document.querySelectorAll('.navList')
 
 menuBtn.addEventListener('click', function(){
     menuBtn.classList.toggle('active');
     menu.classList.toggle('active')
-    
+    item.addEventListener('click', function(){
+        menuBtn.classList.toggle('active');
+        menu.classList.toggle('active')
+    })
 })
 

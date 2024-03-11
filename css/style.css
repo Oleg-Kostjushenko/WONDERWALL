@@ -284,6 +284,7 @@ h2{
 video{
     margin-top: 60px;
     border: 2px solid #000;
+    z-index: 1;
 }
 
 /*------------*/
