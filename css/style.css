@@ -118,19 +118,10 @@ h2{
 }
 .menu li {
     z-index: 2;
-}
-.menu img{
-    position: fixed;
-    top: 10px;
-    left: 350px;
-    opacity: 0.2;
-    z-index: -1;
+    list-style: none;
 }
 .menu.active{
     transform: translateX(0);
-}
-.menu li {
-    list-style: none;
 }
 .menu a {
     text-decoration: none;
@@ -138,6 +129,7 @@ h2{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 40px;
+
 }
 .menu a:hover{
     color: rgb(247, 94, 47);
@@ -250,7 +242,7 @@ h2{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 80px;
-    height: 600px;
+    /* height: 600px; */
 }
 
 
@@ -266,7 +258,7 @@ h2{
     margin-left: 50px;
 }
 .infoText {
-    margin: 110px 60px;
+    margin: 135px 60px;
     width: 570px;
 }
 .infoText2 {

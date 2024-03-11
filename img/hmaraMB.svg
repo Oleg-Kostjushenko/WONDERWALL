@@ -1,0 +1,52 @@
+<svg width="360" height="424" viewBox="0 0 360 424" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_190_606)">
+<rect width="214.544" height="28.438" transform="matrix(-1 0 0 1 306.038 171.928)" fill="white"/>
+<ellipse cx="43.653" cy="45.4854" rx="43.653" ry="45.4854" transform="matrix(-1 0 0 1 134.078 109.395)" fill="white"/>
+<ellipse cx="45.5" cy="41.5" rx="45.5" ry="41.5" transform="matrix(-1 0 0 1 342 26)" fill="white"/>
+<ellipse cx="44.6108" cy="39.9741" rx="44.6108" ry="39.9741" transform="matrix(-1 0 0 1 214.753 0)" fill="white"/>
+<ellipse cx="44.6108" cy="39.9741" rx="44.6108" ry="39.9741" transform="matrix(-1 0 0 1 142.222 15)" fill="white"/>
+<ellipse cx="63.4681" cy="78.5621" rx="63.4681" ry="78.5621" transform="matrix(-1 0 0 1 133.937 46)" fill="white"/>
+<ellipse cx="105.541" cy="70.819" rx="105.541" ry="70.819" transform="matrix(-1 0 0 1 302.06 50.6674)" fill="white"/>
+<ellipse cx="36.1012" cy="33.267" rx="36.1012" ry="33.267" transform="matrix(-1 0 0 1 271.115 21.879)" fill="white"/>
+<ellipse cx="43.0636" cy="37.5596" rx="43.0636" ry="37.5596" transform="matrix(-1 0 0 1 287.692 88.6677)" fill="white"/>
+<ellipse cx="47" cy="64.5" rx="47" ry="64.5" transform="matrix(-1 0 0 1 354 71.0001)" fill="white"/>
+</g>
+<g filter="url(#filter1_d_190_606)">
+<rect x="303.016" y="251.82" width="214.544" height="28.462" transform="rotate(180 303.016 251.82)" fill="white"/>
+<ellipse cx="69.5" cy="262.5" rx="54.5" ry="53.5" transform="rotate(180 69.5 262.5)" fill="white"/>
+<ellipse cx="61.5" cy="307.5" rx="54.5" ry="53.5" transform="rotate(180 61.5 307.5)" fill="white"/>
+<ellipse cx="292" cy="333" rx="50" ry="42" transform="rotate(180 292 333)" fill="white"/>
+<ellipse cx="142.611" cy="359.008" rx="44.6108" ry="40.0079" transform="rotate(180 142.611 359.008)" fill="white"/>
+<ellipse cx="90.5" cy="348" rx="59.5" ry="40" transform="rotate(180 90.5 348)" fill="white"/>
+<ellipse cx="49" cy="195" rx="46" ry="62" transform="rotate(180 49 195)" fill="white"/>
+<ellipse cx="193.496" cy="302.305" rx="105.541" ry="70.879" transform="rotate(180 193.496 302.305)" fill="white"/>
+<ellipse cx="196.5" cy="360" rx="30.5" ry="28" transform="rotate(180 196.5 360)" fill="white"/>
+<ellipse cx="253" cy="360" rx="35" ry="32" transform="rotate(180 253 360)" fill="white"/>
+<ellipse cx="241.607" cy="297.56" rx="43.0636" ry="37.5914" transform="rotate(180 241.607 297.56)" fill="white"/>
+<ellipse cx="304.01" cy="278.102" rx="46.9685" ry="54.7439" transform="rotate(180 304.01 278.102)" fill="white"/>
+<ellipse cx="304.5" cy="206.5" rx="53.5" ry="54.5" transform="rotate(180 304.5 206.5)" fill="white"/>
+<ellipse cx="190" cy="208.5" rx="115" ry="54.5" transform="rotate(180 190 208.5)" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_190_606" x="3" y="0" width="355" height="211.124" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_190_606"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_190_606" result="shape"/>
+</filter>
+<filter id="filter1_d_190_606" x="-1" y="133" width="363" height="274.016" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_190_606"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_190_606" result="shape"/>
+</filter>
+</defs>
+</svg>
