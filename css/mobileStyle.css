@@ -261,6 +261,9 @@
     .infoInblock1{
         background-image: url(../img/hmaraBG360.svg);
     }
+    .infoInblock3{
+        background-image: url(../img/hmaraBGB360.svg);
+    }
 }
 @media screen and (max-device-width: 360px){
     .textInfo{
