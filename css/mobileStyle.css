@@ -48,9 +48,6 @@
     .PCScreen{
         display: none;
     }
-    .mobileScreen{
-        display: block;
-    }
     .info{
         display: flex;
         flex-direction: column;
