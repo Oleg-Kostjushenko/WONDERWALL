@@ -55,6 +55,13 @@ h2{
     display: flex;
     flex-direction: row;
 }
+.navItem{
+    text-decoration: none;
+    width: 100%;
+}
+.navListM{
+    width: 100%;
+}
 .listItem:hover{
     background-color: #ff8811;
     border-radius: 25px;
@@ -117,8 +124,9 @@ h2{
     transition: transform 0.5s;
 }
 .menu li {
-    z-index: 2;
+    z-index: 5;
     list-style: none;
+    margin: 40px 10px;
 }
 .menu.active{
     transform: translateX(0);
@@ -165,7 +173,7 @@ h2{
 
 }
 .boxItem {
-    margin: 25px;
+    margin: 40px;
     width: 300px;
 }
 .inBoxItem h3{
@@ -192,7 +200,7 @@ h2{
 
 /*----------BUTTONS-----------*/
 
-.button h4 {
+.butt h4 {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -204,7 +212,7 @@ h2{
     padding: 5px;
     transition: all 0.3s ease-in 0s;
 }
-.button h3 {
+.butt h3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -215,20 +223,20 @@ h2{
     padding: 5px 10px 5px;
     transition: all 0.3s ease-in 0s;
 }
-.button a{
+.butt a{
     text-decoration: none;
 }
-.button {
+.butt {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 10px 0 20px;
     cursor: pointer;
 }
-.button:hover > h4{
+.butt:hover > h4{
     background-color: #fc91b8;
 }
-.button:hover > h3{
+.butt:hover > h3{
     background-color: #fc91b8;
 }
 .linkPDF {
@@ -242,7 +250,6 @@ h2{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 80px;
-    /* height: 600px; */
 }
 
 
@@ -283,8 +290,7 @@ h2{
 }
 video{
     margin-top: 60px;
-    border: 2px solid #000;
-    z-index: 1;
+    z-index: 1 !important;
 }
 
 /*------------*/

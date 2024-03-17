@@ -11,16 +11,14 @@ var swiper = new Swiper(".mySwiper", {
     keyboard: true,
 })
 
-let menuBtn = document.querySelector('.menu-btn')
+let menuBtn = document.querySelector('.menuBut')
 let menu = document.querySelector('.menu')
-let item = document.querySelectorAll('.navList')
+let menuBtns = document.querySelectorAll('.menuButton')
 
-menuBtn.addEventListener('click', function(){
-    menuBtn.classList.toggle('active');
-    menu.classList.toggle('active')
-    item.addEventListener('click', function(){
-        menuBtn.classList.toggle('active');
+menuBtns.forEach(function(menuBtn){
+    menuBtn.addEventListener('click', function(){
         menu.classList.toggle('active')
     })
-})
+}
+)
 
