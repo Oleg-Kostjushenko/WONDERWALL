@@ -247,7 +247,7 @@
         width: 270px;
     }
     .infoText {
-        margin: 54px 37px;
+        margin: 57px 37px;
     }
     .infoText2 {
         margin: -10px 25px;
@@ -263,6 +263,9 @@
     }
     .infoInblock3{
         background-image: url(../img/hmaraBGB360.svg);
+    }
+    .slide-Eeva{
+        background-image: url(../img/sliderBG360.svg);
     }
 }
 @media screen and (max-device-width: 360px){
