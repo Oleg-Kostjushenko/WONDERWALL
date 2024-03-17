@@ -20,6 +20,30 @@
         width: 100%;
     }
 }
+@media screen and (max-device-width: 955px){
+    .slide-p p{
+        max-width: 550px;
+    }
+}
+@media screen and (max-device-width: 755px){
+    .slide-p p{
+        max-width: 420px;
+        font-size: 15px;
+    }
+    .res img {
+        width: 50px;
+        height: 50px;
+    }
+    .slider{
+        height: 100%;
+    }
+    .logoMobile {
+        display: none;
+    }
+    .mobileScreenS{
+        display: block;
+    }
+}
 @media screen and (max-device-width: 720px){
     .PCScreen{
         display: none;
@@ -47,6 +71,7 @@
     .infoInblock1{
         width: 100%;
         background-size: 650px;
+        margin-left: 0px;
     }
     .infoInblock3{
         width: 100%;
@@ -56,5 +81,193 @@
     .slide-p p {
         max-width: 420px;
         font-size: 18px;
+    }
+}
+@media screen and (max-device-width: 650px){
+    .infoInblock1{
+        background-image: url(../img/hmaraMT.svg);
+        width: 100%;
+        background-size: 100%;
+        margin-left: 0px;
+    }
+    .infoInblock3{
+        background-image: url(../img/hmaraMBL.svg);
+        width: 100%;
+        background-size: 100%;
+        margin-left: 0px;
+    }
+    .textInfo h3 {
+        width: 480px;
+    }
+    .textInfo p, ul{
+        width: 450px;
+        font-size: 19px;
+    }
+    .textInfo{
+        width: 400px;
+        margin-bottom: 120px;
+    }
+}
+@media screen and (max-device-width: 580px){
+    .textInfo{
+        width: 400px;
+        margin-bottom: 120px;
+    }
+    .textInfo p, ul{
+        width: 400px;
+    }
+    .textInfo h3 {
+        width: 415px;
+    }
+    .infoInblock3{
+        background-image: url(../img/hmaraMB.svg);
+    }
+    .infoText {
+        margin: 80px 60px;
+    }
+    .slide-p p {
+        max-width: 300px;
+    }
+}
+@media screen and (max-device-width: 480px){
+    .slide-p p {
+        max-width: 200px;
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prew{
+        right: 50px !important;
+        left: auto;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next{
+        left: 50px !important;
+        right: auto;
+    }    
+    .slide-Eeva{
+        background-image: url(../img/sliderBGM.svg);
+    }
+    .textInfo p, ul{
+        width: 320px;
+    }
+    .textInfo h3 {
+        width: 300px;
+    }
+    .infoText {
+        margin: 74px 54px;
+    }
+    .infoText2 {
+        margin: 70px 37px;
+    }
+    .slide-p p {
+        max-width: 300px;
+    }
+    .inBoxItem ul, li {
+        max-width: 250px;
+    }
+    .mobileFooter {
+        display: block;
+    }
+    .footerPC{
+        display: none;
+    }
+    .social-icon{
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+    }
+    .contacts{
+        height: 375px;
+    }
+    video{
+        max-width: 460px;
+    }
+    .infoInblock3{
+        background-image: url(../img/hmaraBG480.svg);
+    }
+    .infoInblock1{
+        background-image: url(../img/hmaraBT480.svg);
+    }
+}
+@media screen and (max-device-width: 430px){
+    .textInfo {
+        width: 345px;
+    }
+    .textInfo p, ul{
+        width: 290px;
+        font-size: 16px;
+    }
+    .infoText {
+        margin: 46px 33px;
+    }
+    .infoText2 {
+        margin: 75px 15px;
+    }
+    video{
+        max-width: 410px;
+    }
+}
+@media screen and (max-device-width: 400px){
+    .textInfo{
+        width: 300px;
+        margin-bottom: 120px;
+    }
+    .textInfo p, ul{
+        width: 230px;
+        font-size: 16px;
+    }
+    .textInfo h3 {
+        width: 270px;
+    }
+    .infoText {
+        margin: 54px 37px;
+    }
+    .infoText2 {
+        margin: -10px 25px;
+    }
+    .slide-p p {
+        max-width: 199px;
+    }
+    video{
+        max-width: 400px;
+    }
+    .infoInblock1{
+        background-image: url(../img/hmaraBG360.svg);
+    }
+}
+@media screen and (max-device-width: 360px){
+    .textInfo{
+        width: 285px;
+        margin-bottom: 120px;
+        margin: 60px 32px;
+    }
+    .textInfo p, ul{
+        width: 230px;
+        font-size: 16px;
+    }
+    .textInfo h3 {
+        font-size: 18px;
+        width: 270px;
+    }
+    .infoText2 {
+        margin: 18px 25px;
+    }
+    .slide-p p {
+        max-width: 199px;
+    }
+    video{
+        margin-top: 0;
+        max-width: 360px;
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prew{
+        right: 30px !important;
+        left: auto;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next{
+        left: 30px !important;
+        right: auto;
+    }
+    .slide-Eeva{
+        background-image: url(../img/sliderBG360.svg);
+    }
+    .infoInblock3{
+        background-image: url(../img/hmaraBGB360.svg);
     }
 }

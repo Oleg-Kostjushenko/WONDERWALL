@@ -29,6 +29,9 @@ h2{
 .mobileScreen{
     display: none;
 }
+.mobileScreenS{
+    display: none;
+}
 
 /*-------Header--------*/
 .logo img {
@@ -376,11 +379,14 @@ video{
 .contcts-items {
     max-width: 300px;
 }
+.mobileFooter {
+    display: none;
+}
 footer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 410px;
     background-color: #F75590;
 }
