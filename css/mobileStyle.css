@@ -1,13 +1,4 @@
 @media screen and (max-device-width: 1200px){
-    .PCScreen{
-        display: none;
-    }
-    .mobileScreen{
-        display: block;
-    }
-    .logo{
-        background-color: #fff;
-    }
     .info{
         display: flex;
         flex-direction: column;
@@ -145,8 +136,17 @@
     .textInfo h3 {
         width: 415px;
     }
+    .infoInblock1{
+        background-image: url(../img/hmaraMT.svg);
+        width: 100%;
+        background-size: 100%;
+        margin-left: 0px;
+    }
     .infoInblock3{
         background-image: url(../img/hmaraMB.svg);
+        width: 100%;
+        background-size: 100%;
+        margin-left: 0px;
     }
     .infoText {
         margin: 80px 60px;
