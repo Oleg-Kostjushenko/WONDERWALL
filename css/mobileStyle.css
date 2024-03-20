@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 1100px){
+@media screen and (max-device-width: 1200px){
     .PCScreen{
         display: none;
     }
@@ -29,7 +29,7 @@
         max-width: 455px;
     }
 }
-@media screen and (max-device-width: 1000px){
+@media screen and (max-device-width: 998px){
     .PCScreen{
         display: none;
     }
@@ -50,13 +50,11 @@
         text-align: center;
         width: 100%;
     }
-}
-@media screen and (max-device-width: 955px){
     .slide-p p{
         max-width: 550px;
     }
 }
-@media screen and (max-device-width: 755px){
+@media screen and (max-device-width: 768px){
     .slide-p p{
         max-width: 420px;
         font-size: 15px;
@@ -75,7 +73,7 @@
         display: block;
     }
 }
-@media screen and (max-device-width: 720px){
+/* @media screen and (max-device-width: 720px){
     .PCScreen{
         display: none;
     }
@@ -135,8 +133,8 @@
         width: 400px;
         margin-bottom: 120px;
     }
-}
-@media screen and (max-device-width: 580px){
+} */
+@media screen and (max-device-width: 576px){
     .textInfo{
         width: 400px;
         margin-bottom: 120px;
@@ -157,7 +155,7 @@
         max-width: 300px;
     }
 }
-@media screen and (max-device-width: 480px){
+/* @media screen and (max-device-width: 480px){
     .slide-p p {
         max-width: 200px;
     }
@@ -306,4 +304,4 @@
     .infoInblock3{
         background-image: url(../img/hmaraBGB360.svg);
     }
-}
+} */
