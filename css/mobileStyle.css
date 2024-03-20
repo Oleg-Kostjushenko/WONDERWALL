@@ -127,11 +127,12 @@
 } */
 @media screen and (max-device-width: 576px){
     .textInfo{
-        width: 300px;
+        width: 275px;
     }
     .textInfo p, ul{
-        width: 270px;
+        width: 240px;
         font-size: 16px;
+        margin: 0px;
     }
     .textInfo h3 {
         width: 270px;
@@ -151,21 +152,24 @@
     } */
     .infoInblock3{
         background-image: none;
-        width: 100%;
+        width: 340px;
         background-size: 100%;
         margin-left: 0px;
+        padding: 0px;
     }
     .infoText {
         background-image: url(../img/hmaraBG360.svg);
         background-repeat: no-repeat;
         padding: 52px 42px;
         margin: 0;
+        width: 270px;
     }
     .infoText2 {
         background-image: url(../img/hmaraBGB360.svg);
         background-repeat: no-repeat;
         padding: 40px 42px;
         margin: 0;
+        width: 270Px;
     }
     .slide-p p {
         max-width: 185px;
